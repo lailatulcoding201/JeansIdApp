@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/activity_product_detail"/>
+
+    <Button
+        android:id="@+id/buttonCustomize"
+        android:layout_marginTop="@dimen/margin_24"
+        android:layout_width="0dp"
+        android:text="Customize"
+        android:background="@drawable/rounded_button3"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintEnd_toStartOf="@id/buttonBeli"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description_product"
+        android:layout_marginRight="4dp"
+        />
+
+    <Button
+        android:id="@+id/buttonBeli"
+        android:layout_marginTop="@dimen/margin_24"
+        android:layout_width="0dp"
+        android:textColor="#FFF"
+        android:layout_marginLeft="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Beli Sekarang"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonCustomize"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintTop_toBottomOf="@id/description_product" />
+
+
+</android.support.constraint.ConstraintLayout>

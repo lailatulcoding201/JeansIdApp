@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "520708200188",
+    "firebase_url": "https://jeansid-a795e.firebaseio.com",
+    "project_id": "jeansid-a795e",
+    "storage_bucket": "jeansid-a795e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520708200188:android:58acb050ef3d2d20",
+        "android_client_info": {
+          "package_name": "id.jeans.jeansid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520708200188-vt65mdrcqm4humbe5dp6u1nh6helbnp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.jeans.jeansid",
+            "certificate_hash": "ab291f79cd12a61f947ce5b89fabe805a79dcf1c"
+          }
+        },
+        {
+          "client_id": "520708200188-2euqrp2ctr7aj8gluldgcjn1r2dlgo13.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "520708200188-2euqrp2ctr7aj8gluldgcjn1r2dlgo13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQSCzWhabU7fnV-y_6kyjlqO1YjRPN4rA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520708200188-2euqrp2ctr7aj8gluldgcjn1r2dlgo13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
